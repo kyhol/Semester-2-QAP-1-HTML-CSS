@@ -1,4 +1,4 @@
-Course Name: Front-end Development
+<!-- Course Name: Front-end Development
 
 Current Week: (2024/05/13)
 
@@ -144,4 +144,4 @@ Submission:
 
 3. When you are finished, save all the resources in a folder with your first name followed by underscore and qap1. Example: Alan Smith folder will look like “alan_qap1”, zip it and submit it OR upload on github repository and share the link.
 
-Enjoy coding!
+Enjoy coding! -->

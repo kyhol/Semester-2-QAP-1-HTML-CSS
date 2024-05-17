@@ -1,0 +1,46 @@
+/* Author: Kyle Hollett */
+/* Date: 2024-05-17 - 2024-05-25 */
+/* Description: Automobile website :) */
+
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.desktopcontainer {
+    width: 1440px;
+    height: 1024px;
+    background: #A64747;
+}
+
+.navbartop {
+    display: flex;
+    justify-content: center; /* This aligns nav buttons evenly */
+    box-sizing: border-box;
+    background: #000000;
+    height: 42px;
+    position: relative;
+}
+
+.navbarbottom {
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.70);
+    height: 42px;
+    position: relative;
+}
+
+.navbutton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1d7cd3;
+    border-radius: 23px;
+    width: 90px;
+    height: 32px;
+    position: relative;
+    color: white; /* Assuming you want the text color to be white */
+    margin:5px 50px;
+}
