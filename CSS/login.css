@@ -1,0 +1,95 @@
+.navbartop {
+    display: flex;
+    justify-content: space-around; /* Space between elements to push auth-container to the right */
+    align-items: center; /* Vertically center elements */
+    box-sizing: border-box;
+    background: black;
+    height: 42px;
+    padding: 0px; /* Add some padding to the left and right */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Allow this container to take up available space */
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+}
+
+.loginbutton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d34c23af;
+    border-radius: 23px;
+    width: 70px;
+    height: 32px;
+    color: white; /* Assuming you want the text color to be white */
+    margin: 0px 10px; /* Adjust margin as needed */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.regbutton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1d7cd3;
+    border-radius: 23px;
+    width: 90px;
+    height: 32px;
+    position: relative;
+    color: white; /* Assuming you want the text color to be white */
+    margin:5px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-top: 3px;;
+}
+
+.search-bar:focus {
+    border-color: #007BFF;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #d34c23af;
+    border: 1px solid #d34c23af;
+    border-radius: 50%;
+    margin-left: 5px; /* Overlap the search bar border */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.search-button:active {
+    background-color: #004494;
+}
+
+.label {
+    margin-right: 10px; /* Adjust spacing between label and input */
+    color: white; /* Adjust the color as needed */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 150px; /* Adjust width as needed */
+    padding: 8px;
+    margin-right: 10px; /* Adjust spacing between inputs */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}

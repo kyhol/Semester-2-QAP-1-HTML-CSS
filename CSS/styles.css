@@ -28,6 +28,8 @@ h1 {
 }
 
 .navbartop {
+    display: flex;
+    justify-content: center; /* This aligns nav buttons evenly */
     box-sizing: border-box;
     background: black;
     height: 42px;
@@ -58,7 +60,7 @@ h1 {
     height: 32px;
     position: relative;
     color: white; /* Assuming you want the text color to be white */
-    margin:5px 50px;
+    margin:5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
