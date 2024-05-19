@@ -18,18 +18,18 @@ h1 {
     background: #A64747;
 }
 
-.navbartop {
+.navbarbottom {
     display: flex;
     justify-content: center; /* This aligns nav buttons evenly */
     box-sizing: border-box;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.65);
     height: 42px;
     position: relative;
 }
 
-.navbarbottom {
+.navbartop {
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.70);
+    background: black;
     height: 42px;
     position: relative;
 }
@@ -45,4 +45,29 @@ h1 {
     position: relative;
     color: white; /* Assuming you want the text color to be white */
     margin:5px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.regbutton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1d7cd3;
+    border-radius: 23px;
+    width: 90px;
+    height: 32px;
+    position: relative;
+    color: white; /* Assuming you want the text color to be white */
+    margin:5px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }

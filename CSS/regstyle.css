@@ -1,0 +1,30 @@
+label {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+input[type="submit"],
+input[type="checkbox"],
+input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
