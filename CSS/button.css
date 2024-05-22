@@ -56,6 +56,17 @@
 .loginbutton1:active {
     background-color: #004494;
 }
+.loginbutton2:focus {
+    border-color: #007BFF;
+}
+
+.loginbutton2:hover {
+    background-color: #0056b3;
+}
+
+.loginbutton2:active {
+    background-color: #004494;
+}
 .regbutton1{
     display: flex;
     justify-content: center;
@@ -68,6 +79,17 @@
     color: white; /* Assuming you want the text color to be white */
     margin:5px 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.regbutton1:focus {
+    border-color: #007BFF;
+}
+
+.regbutton1:hover {
+    background-color: #0056b3;
+}
+
+.regbutton1:active {
+    background-color: #004494;
 }
 .search-bar {
     width: 300px;
