@@ -10,11 +10,23 @@
     <title>Automobile Website</title>
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="../CSS/regstyle.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="../CSS/button.css">
 </head>
 <body>
     <main class="desktopcontainer">
         <div class="navbartop">
-
+            <div class="search-container">
+                <input type="search" class="search-bar" placeholder="Search...">
+                <img src="../pics/oui_app-search-profiler.svg" alt="Image not loading" class="SVGSearch">
+            </div>
+            <div class="auth-container">
+                <div class="loginbutton2">Log in</div>
+                <label for="name" class="label">UserName:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <label for="password" class="label">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter your password"> 
+            </div>
         </div>
         <div class="navbarbottom">
             <a href="Home.html" class="navbutton1">Home</a>
@@ -22,8 +34,9 @@
             <a href="Buy NOW!.html" class="navbutton1">Buy NOW!</a>
             <a href="About.html" class="navbutton1">About</a>
             <a href="Contact.html" class="navbutton1">Contact</a>
+            <a href="Register.html" class="regbutton1">Register</a>
         </div>
-        <form action="">
+        <form class="botreg" action="">
             <label for="">UserName:</label><br />
             <input type="text" name="name" id="name" placeholder="Enter your name">
             <br /><br />

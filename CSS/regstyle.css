@@ -5,8 +5,9 @@ label {
     align-items: center;
 }
 
-input[type="text"],
-input[type="password"],
+/* Input Field Styling */
+.botreg input[type="text"],
+.botreg input[type="password"],
 input[type="email"],
 input[type="date"],
 input[type="file"],
@@ -21,6 +22,7 @@ input[type="radio"] {
     box-sizing: border-box;
 }
 
+/* Form Styling */
 form {
     max-width: 400px;
     margin: 20px auto;
