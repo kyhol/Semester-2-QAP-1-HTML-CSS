@@ -32,6 +32,19 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     cursor: pointer;
 }
+.loginbutton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d34c23af;
+    border-radius: 23px;
+    width: 70px;
+    height: 32px;
+    color: white; /* Assuming you want the text color to be white */
+    margin: 0px 10px; /* Adjust margin as needed */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
 .loginbutton1:focus {
     border-color: #007BFF;
 }
@@ -91,17 +104,24 @@
     cursor: pointer;
     transition: background-color 0.3s; 
 }
+
 .label {
     margin-right: 10px; /* Adjust spacing between label and input */
     color: white; /* Adjust the color as needed */
 }
 
-input[type="text"],
-input[type="password"] {
-    width: 150px; /* Adjust width as needed */
+input[type="text"], input[type="password"] {
+    width: 200px; 
     padding: 8px;
     margin-right: 10px; /* Adjust spacing between inputs */
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
 }
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

@@ -10,6 +10,7 @@
     <title>Automobile Website</title>
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="../CSS/button.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
 </head>
 <body>
     <main class="desktopcontainer">
@@ -19,7 +20,7 @@
                 <img src="../pics/oui_app-search-profiler.svg" alt="Image not loading" class="SVGSearch">
             </div>
             <div class="auth-container">
-                <div class="loginbutton1">Log in</div>
+                <div class="loginbutton2">Log in</div>
                 <label for="name" class="label">UserName:</label>
                 <input type="text" name="name" id="name" placeholder="Enter your name">
                 <label for="password" class="label">Password:</label>
@@ -34,6 +35,39 @@
             <a href="Contact.html" class="navbutton1">Contact</a>
             <a href="Register.html" class="regbutton1">Register</a>
         </div>
+        <div class="container">
+            <form class="bottom-form" action="action_page.php">
+                <!-- form elements here -->
+             
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+              <label for="">Email</label><br />
+              <input type="text" name="email" id="email" placeholder="Enter your email">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Question</label>
+              <textarea id="subject" name="subject" placeholder="Ask your questions here..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </main>
+    <footer>    
+        <div id="date-time">
+        <em>May 22, 2024 10:30 AM</em>
+        </div>
+        </footer>
 </body>
 </html>
