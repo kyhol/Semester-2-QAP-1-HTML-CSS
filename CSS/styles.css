@@ -3,9 +3,11 @@
 /* Description: Automobile website :) */
 
 body {
-    display:flex;
+    display: flex;
     justify-content: center;
-    background-color: lightblue;
+    background: linear-gradient(to right, #000000, #d34c23af, #d34c23af, #d34c23af, #000000); /* Gradient background */
+    min-height: 100vh; /* Ensures the body takes full height of the viewport */
+    margin: 0; /* Removes default margin */
 }
 h1 {
     color: red;
@@ -40,7 +42,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1d7cd3;
+    background: #d34c23af;
     border-radius: 23px;
     width: 90px;
     height: 32px;
@@ -50,18 +52,16 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.regbutton1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1d7cd3;
-    border-radius: 23px;
-    width: 90px;
-    height: 32px;
-    position: relative;
-    color: white; /* Assuming you want the text color to be white */
-    margin:5px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.navbutton1:focus {
+    border-color: #007BFF;
+}
+
+.navbutton1:hover {
+    background-color: #0056b3;
+}
+
+.navbutton1:active {
+    background-color: #004494;
 }
 
 input[type="submit"] {
@@ -72,4 +72,16 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.Jeepvideo {
+    display: flex;
+    justify-content: center;
 }

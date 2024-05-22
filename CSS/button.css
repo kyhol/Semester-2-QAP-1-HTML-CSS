@@ -30,12 +30,24 @@
     color: white; /* Assuming you want the text color to be white */
     margin: 0px 10px; /* Adjust margin as needed */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.loginbutton1:focus {
+    border-color: #007BFF;
+}
+
+.loginbutton1:hover {
+    background-color: #0056b3;
+}
+
+.loginbutton1:active {
+    background-color: #004494;
 }
 .regbutton1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1d7cd3;
+    background: #d34c23af;
     border-radius: 23px;
     width: 90px;
     height: 32px;
@@ -52,33 +64,33 @@
     font-size: 16px;
     outline: none;
     transition: border-color 0.3s;
-    margin-top: 3px;;
+    margin-top: 3px;
+    margin-left: 1px;
 }
 
-.search-bar:focus {
+.SVGSearch:focus {
     border-color: #007BFF;
 }
 
-.search-button {
-    padding: 10px 20px;
-    background-color: #d34c23af;
-    border: 1px solid #d34c23af;
-    border-radius: 50%;
-    margin-left: 5px; /* Overlap the search bar border */
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.search-button:hover {
+.SVGSearch:hover {
     background-color: #0056b3;
 }
 
-.search-button:active {
+.SVGSearch:active {
     background-color: #004494;
 }
-
+.SVGSearch {
+    margin: 5px 0px 0px 5px;
+    background-color: #d34c23af;
+    border: 1px solid #d34c23af;
+    border-radius: 50%;
+    margin-left: 10px; /* Overlap the search bar border */
+    margin-top: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
 .label {
     margin-right: 10px; /* Adjust spacing between label and input */
     color: white; /* Adjust the color as needed */
