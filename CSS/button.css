@@ -99,8 +99,11 @@
     font-size: 16px;
     outline: none;
     transition: border-color 0.3s;
+    border-color: white;
     margin-top: 3px;
     margin-left: 1px;
+    background-color:black;
+    color: white;   
 }
 
 .SVGSearch:focus {
@@ -129,7 +132,8 @@
 
 .label {
     margin-right: 10px; /* Adjust spacing between label and input */
-    color: white; /* Adjust the color as needed */
+    background-color:black;
+    color: white;   
 }
 
 input[type="text"], input[type="password"] {
@@ -138,7 +142,10 @@ input[type="text"], input[type="password"] {
     margin-right: 10px; /* Adjust spacing between inputs */
     border: 1px solid #ccc;
     border-radius: 3px;
+    border-color: white;
     box-sizing: border-box;
+    background-color:black;
+    color: white;   
 }
 
 .auth-container {

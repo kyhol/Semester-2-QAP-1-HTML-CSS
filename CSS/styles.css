@@ -84,6 +84,7 @@ input[type="submit"]:hover {
 .Jeepvideo {
     display: flex;
     justify-content: center;
+    border-radius: 23px;
 }
 #date-time {
     position: fixed;
@@ -102,4 +103,106 @@ input[type="submit"]:hover {
     color: white;}
 .text-align-center{
 text-align:center
+}
+h1 {
+    color: #ffffff; /* Choose a color that contrasts well with the background */
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Make the font bold */
+    text-shadow: 2px 2px 4px #000000; /* Add a shadow to make it pop */
+    font-family: 'Arial', sans-serif; /* Use a modern font */
+    padding: 10px; /* Add some padding */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: a semi-transparent background */
+    border-radius: 5px; /* Optional: rounded corners */
+  }
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 1.6;
+    padding: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+.image1 {
+    display: flex;
+    justify-content: flex-start;
+    height:315px;
+    width:300px;
+    margin-right: 10px;
+    border-radius: 23px;
+}
+.image2 {
+    display: flex;
+    justify-content: flex-end;
+    height:315px;
+    width:300px;
+    margin-left: 10px;
+    border-radius: 23px;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+.aboutnames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 23px;
+    width: 170px;
+    color: #1573c0;
+    margin: 5px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.imageabout1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.imageabout2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 50px 110px 0px 110px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.imageabout3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.bar {
+    font-size: 38px; 
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.sealteamsix{
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color:#1573c0;
 }
