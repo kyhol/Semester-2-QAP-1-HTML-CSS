@@ -279,16 +279,39 @@ li, ul{
 }
 .radio-labelred {
     color:red;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .radio-labelgreen {
     color:green;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .radio-labelblue {
     color:blue;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .radio-labelyellow {
     color:yellow;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .radio-labelpurple {
     color:purple;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.color-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.imagecolor {
+    width: 250px; 
+    height: 325px; 
+    border-radius: 23px;
 }
