@@ -15,52 +15,56 @@
 </head>
 <body>
     <main class="desktopcontainer">
-        <nav>
-        <div class="navbartop">
-            <div class="search-container">
-                <input type="search" class="search-bar" placeholder="Search...">
-                <img src="../pics/oui_app-search-profiler.svg" alt="Image not loading" class="SVGSearch">
-            </div>
-            <div class="auth-container">
-                <div class="loginbutton2">Log in</div>
-                <label for="name" class="label2">UserName:</label>
+        <section>
+            <nav>
+                <div class="navbartop">
+                    <div class="search-container">
+                        <input type="search" class="search-bar" placeholder="Search...">
+                        <img src="../pics/oui_app-search-profiler.svg" alt="Image not loading" class="SVGSearch">
+                    </div>
+                    <div class="auth-container">
+                        <div class="loginbutton2">Log in</div>
+                        <label for="name" class="label2">UserName:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                        <label for="password" class="label2">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password"> 
+                    </div>
+                </div>
+                <div class="navbarbottom">
+                    <a href="Home.html" class="navbutton1">Home</a>
+                    <a href="Canyonero.html" class="navbutton1">Canyonero</a>
+                    <a href="Buy NOW!.html" class="navbutton1">Buy NOW!</a>
+                    <a href="About.html" class="navbutton1">About</a>
+                    <a href="Contact.html" class="navbutton1">Contact</a>
+                    <a href="Register.html" class="regbutton1">Register</a>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <form class="botreg" action="">
+                <label for="">UserName:</label><br />
                 <input type="text" name="name" id="name" placeholder="Enter your name">
-                <label for="password" class="label2">Password:</label>
-                <input type="password" name="password" id="password" placeholder="Enter your password"> 
-            </div>
-        </div>
-        <div class="navbarbottom">
-            <a href="Home.html" class="navbutton1">Home</a>
-            <a href="Canyonero.html" class="navbutton1">Canyonero</a>
-            <a href="Buy NOW!.html" class="navbutton1">Buy NOW!</a>
-            <a href="About.html" class="navbutton1">About</a>
-            <a href="Contact.html" class="navbutton1">Contact</a>
-            <a href="Register.html" class="regbutton1">Register</a>
-        </div>
-    </nav>
-        <form class="botreg" action="">
-            <label for="">UserName:</label><br />
-            <input type="text" name="name" id="name" placeholder="Enter your name">
-            <br /><br />
-            <label for="">Password:</label><br />
-            <input type="password" name="password" id="password" placeholder="Enter your password"><br /><br />
-            <label for="">Email</label><br />
-            <input type="text" name="email" id="email" placeholder="Enter your email">
-            <br /><br />
-            <label for="">Date of Birth:</label>
-            <input type="date" name="" id="">
-            <br />  <br />
-            <label for="file"><strong>Upload a cat pic to confirm you're not a robot:</strong></label>
-            <input type="file" name="file" id="file">
-            <br><br>
-            <input type="submit" value="Submit">
-            <br />  
+                <br /><br />
+                <label for="">Password:</label><br />
+                <input type="password" name="password" id="password" placeholder="Enter your password"><br /><br />
+                <label for="">Email</label><br />
+                <input type="text" name="email" id="email" placeholder="Enter your email">
+                <br /><br />
+                <label for="">Date of Birth:</label>
+                <input type="date" name="" id="">
+                <br /><br />
+                <label for="file"><strong>Upload a cat pic to confirm you're not a robot:</strong></label>
+                <input type="file" name="file" id="file">
+                <br><br>
+                <input type="submit" value="Submit">
+                <br />  
+            </form>
+        </section>
     </main>
-
     <footer>    
         <div id="date-time">
-        <date><em>May 22, 2024</date><time>10:30 AM</em></time>
+            <date><em>May 22, 2024</date><time>10:30 AM</em></time>
         </div>
-        </footer>
+    </footer>
 </body>
 </html>
