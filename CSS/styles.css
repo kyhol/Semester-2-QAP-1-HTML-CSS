@@ -277,3 +277,18 @@ li, ul{
     border-radius: 23px;
     margin-top:10px;
 }
+.radio-labelred {
+    color:red;
+}
+.radio-labelgreen {
+    color:green;
+}
+.radio-labelblue {
+    color:blue;
+}
+.radio-labelyellow {
+    color:yellow;
+}
+.radio-labelpurple {
+    color:purple;
+}

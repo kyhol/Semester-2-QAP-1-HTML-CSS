@@ -154,3 +154,37 @@ input[type="text"], input[type="password"] {
     justify-content: space-between;
 }
 
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between radio buttons */
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1400px; /* Adjust the width as needed */
+}
+
+.checkbox-group label {
+    width: 40%; /* Two columns */
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px; /* Adjust spacing between checkboxes */
+    text-align: center; /* Center the text */
+}
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+button {
+    align-self: center; 
+    margin-top: 20px;
+
+}
+#white {
+    color: white;
+}
