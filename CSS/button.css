@@ -165,6 +165,7 @@ input[type="text"], input[type="password"] {
     flex-wrap: wrap;
     justify-content: center;
     width: 1400px; /* Adjust the width as needed */
+    margin-left: 235px;
 }
 
 .checkbox-group label {
@@ -172,7 +173,7 @@ input[type="text"], input[type="password"] {
     box-sizing: border-box;
     padding: 5px;
     margin: 5px; /* Adjust spacing between checkboxes */
-    text-align: center; /* Center the text */
+    text-align: left; /* Center the text */
 }
 .buttoncontainer {
     display: flex;
@@ -182,7 +183,7 @@ input[type="text"], input[type="password"] {
 }
 button {
     align-self: center; 
-    margin-top: 20px;
+    margin-bottom: 10px;
 
 }
 #white {
