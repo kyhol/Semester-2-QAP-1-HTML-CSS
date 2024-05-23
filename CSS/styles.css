@@ -162,6 +162,7 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     letter-spacing: 1px;
+    text-shadow: 2px 2px 5px #000;
 
 }
 .imageabout1 {
@@ -205,6 +206,7 @@ p {
     font-size: 50px;
     font-family: 'Arial Narrow Bold', sans-serif;
     color:#1573c0;
+    text-shadow: 2px 2px 5px #000;
 }
 p{
     font-family: 'Arial', sans-serif;
@@ -347,4 +349,10 @@ li, ul{
     padding: 10px; /* Add some padding */
     background-color: rgba(11, 14, 230, 0.5); /* Optional: a semi-transparent background */
     border-radius: 5px; /* Optional: rounded corners */
+}
+.audio-container {
+    width: 25%;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-left:565px;
 }

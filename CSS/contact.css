@@ -1,4 +1,3 @@
-/* Make the inputs display as block elements */
 .top-form input[type=text], select, textarea {
     display: flex;
     width: 100%; /* Full width */
