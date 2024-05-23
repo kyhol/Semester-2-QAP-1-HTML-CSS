@@ -1,6 +1,6 @@
 /* Make the inputs display as block elements */
 .top-form input[type=text], select, textarea {
-    display: block;
+    display: flex;
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
@@ -9,7 +9,7 @@
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 2px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.322);
     color: white;   
 }
 
@@ -21,7 +21,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.692);
     color: white;   
 }
 
@@ -38,7 +38,7 @@ input[type=submit]:hover {
 }
 
 .bottom-form input[type="text"], .bottom-form select, .bottom-form textarea {
-    display: block;
+    display: flex;
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
@@ -47,13 +47,13 @@ input[type=submit]:hover {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    background-color: black;
+    background-color:rgba(0, 0, 0, 0.322);;
     color: white;
   }
 .label2 {
     margin-top: 5px;
     align-items: center;
     margin-right: 10px; /* Adjust spacing between label and input */
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.322);
     color: white;   
 }
