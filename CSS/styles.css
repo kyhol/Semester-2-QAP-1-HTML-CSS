@@ -409,3 +409,12 @@ li, ul{
 #margin5 {
     margin: 5px;
 }
+
+.column{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
