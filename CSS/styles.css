@@ -283,36 +283,41 @@ li, ul{
     color:red;
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .radio-labelgreen {
     color:green;
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .radio-labelblue {
     color:blue;
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .radio-labelyellow {
     color:yellow;
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .radio-labelpurple {
     color:purple;
     margin-left: 100px;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .color-container {
