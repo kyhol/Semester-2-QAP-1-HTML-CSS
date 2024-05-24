@@ -1,10 +1,11 @@
 label {
     display: flex;
-    margin-bottom: 5px;
+    margin: 5px;
     justify-content: center;
     align-items: center;
-    background-color:rgba(0, 0, 0, 0.322);
-    color: white;   
+    background-color:rgb(0, 0, 0);
+    color: white;
+    border-radius: 23px;   
 }
 
 /* Input Field Styling */
@@ -19,10 +20,10 @@ input[type="radio"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
-    background-color:rgba(0, 0, 0, 0.322);
+    background-color:rgba(0, 0, 0, 0.993);
     color: white;
     
 }
@@ -34,6 +35,6 @@ form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color:rgba(0, 0, 0, 0.116);
+    background-color:rgba(59, 43, 43, 0.116);
     color: white;   
 }
