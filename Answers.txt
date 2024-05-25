@@ -10,11 +10,11 @@
 
 Answers:
 
-1. That's a good question. I used the project to curb my depressive episode, so anywhere from 12-25 hours lol. I lost myself in it. Learned a lot.
+1. That's a good question. I used the project to curb my depressive episode, so anywhere above 20 to 25+ hours lol. I lost myself in it. Learned a lot.
 
 2. w3schools, youtube, oreillys, developer.mozilla.org, ChatGPT, Copilot. I'm sure there's more, but I don't remember. 
 
-3. I think I asked Bradley Ayers if he used "|" to separate a section, so I used that. I think that's the only question I asked anyone.
+3. I think I asked Bradley Ayers if he used "|" to separate a section, so I used that. I think that's the only question I asked anyone. *Edit Brian Janes mentioned to add media queries. 
 
 4. Nope. 
 

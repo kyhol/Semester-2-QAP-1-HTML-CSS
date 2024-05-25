@@ -1,11 +1,12 @@
 label {
     display: flex;
-    margin: 5px;
     justify-content: center;
     align-items: center;
-    background-color:rgb(0, 0, 0);
+    background-color:rgba(0, 0, 0, 0.521);
     color: white;
-    border-radius: 23px;   
+    border-radius: 5px;  
+    padding: 10px;
+    border: rgba(252, 251, 251, 0.521) 1px solid;
 }
 
 /* Input Field Styling */
@@ -20,20 +21,22 @@ input[type="radio"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 2px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
     background-color:rgba(0, 0, 0, 0.993);
     color: white;
+    border: 1px solid rgba(252, 251, 251, 0.521);
     
 }
 
 /* Form Styling */
 form {
-    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(252, 251, 251, 0.521);
     border-radius: 5px;
     background-color:rgba(59, 43, 43, 0.116);
     color: white;   
