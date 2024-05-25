@@ -224,20 +224,6 @@ p{
 
 }
 
-@media (max-width: 600px) {
-    .content {
-        padding: 20px;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-}
-
 blockquote{
     font-family: 'Arial', sans-serif;
     color:white;
@@ -267,7 +253,7 @@ li, ul{
         letter-spacing: 0.5px;
         word-spacing: 1px;
 }
-.listcontainer {
+.listcontainer{
     display: flex;
     align-items: flex-start;
     padding: 20px;
@@ -281,40 +267,40 @@ li, ul{
 }
 .radio-labelred {
     color:red;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     font-size: 20px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .radio-labelgreen {
     color:green;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     font-size: 20px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .radio-labelblue {
     color:blue;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     font-size: 20px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .radio-labelyellow {
     color:yellow;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     font-size: 20px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .radio-labelpurple {
     color:purple;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     font-size: 20px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -418,3 +404,796 @@ li, ul{
     justify-content: center;
     margin: 10px;
 }
+/* Author: Kyle Hollett */
+/* Date: 2024-05-17 - 2024-05-25 */
+/* Description: Automobile website :) */
+
+.navbartop {
+    display: flex;
+    justify-content: space-around; /* Space between elements to push auth-container to the right */
+    align-items: center; /* Vertically center elements */
+    box-sizing: border-box;
+    background: black;
+    height: 42px;
+    padding: 0px; /* Add some padding to the left and right */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Allow this container to take up available space */
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+}
+
+.loginbutton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d34c23af;
+    border-radius: 23px;
+    width: 70px;
+    height: 32px;
+    color: white; /* Assuming you want the text color to be white */
+    margin: 0px 10px; /* Adjust margin as needed */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.loginbutton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d34c23af;
+    border-radius: 23px;
+    width: 70px;
+    height: 32px;
+    color: white; /* Assuming you want the text color to be white */
+    margin: 0px 10px; /* Adjust margin as needed */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.loginbutton1:focus {
+    border-color: #007BFF;
+}
+
+.loginbutton1:hover {
+    background-color: #0056b3;
+}
+
+.loginbutton1:active {
+    background-color: #004494;
+}
+.loginbutton2:focus {
+    border-color: #007BFF;
+}
+
+.loginbutton2:hover {
+    background-color: #0056b3;
+}
+
+.loginbutton2:active {
+    background-color: #004494;
+}
+.regbutton1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d34c23af;
+    border-radius: 23px;
+    width: 90px;
+    height: 32px;
+    position: relative;
+    color: white; /* Assuming you want the text color to be white */
+    margin:5px 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.regbutton1:focus {
+    border-color: #007BFF;
+}
+
+.regbutton1:hover {
+    background-color: #0056b3;
+}
+
+.regbutton1:active {
+    background-color: #004494;
+}
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+    border-color: white;
+    margin-top: 3px;
+    margin-left: 1px;
+    background-color:black;
+    color: white;   
+}
+
+.SVGSearch:focus {
+    border-color: #007BFF;
+}
+
+.SVGSearch:hover {
+    background-color: #0056b3;
+}
+
+.SVGSearch:active {
+    background-color: #004494;
+}
+.SVGSearch {
+    margin: 5px 0px 0px 5px;
+    background-color: #d34c23af;
+    border: 1px solid #d34c23af;
+    border-radius: 50%;
+    margin-left: 10px; /* Overlap the search bar border */
+    margin-top: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.label {
+    margin-right: 10px; /* Adjust spacing between label and input */
+    background-color:rgba(0, 0, 0, 0.322);
+    color: white;   
+}
+
+input[type="text"], input[type="password"] {
+    width: 200px; 
+    padding: 8px;
+    margin-right: 10px; /* Adjust spacing between inputs */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-color: white;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.322);
+    color: white;   
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust spacing between radio buttons */
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1400px; /* Adjust the width as needed */
+    margin-left: 45px;
+}
+
+.checkbox-group label {
+    width: 120px; /* Two columns */
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px; /* Adjust spacing between checkboxes */
+    text-align: left; /* Center the text */
+    margin-right: 100px;
+}
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+button {
+    align-self: center; 
+    margin-bottom: 10px;
+
+}
+.white {
+    color: white;
+    font-size: 20px;
+}
+/* Basic button styling */
+.btn {
+    background-color: #007BFF; 
+    font-family: 'Roboto', sans-serif;
+    height:100px;
+    width:200px;
+    color: white; 
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style:dashed;
+    padding: 10px 20px;
+    margin-bottom: 25px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 23px; 
+    transition: background-color 0.3s, transform 0.3s; 
+    margin-top: 30px;
+    text-decoration: solid;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+
+.btn:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+}
+
+/* Focus effect */
+.btn:focus {
+    outline: none; 
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+/* Author: Kyle Hollett */
+/* Date: 2024-05-17 - 2024-05-25 */
+/* Description: Automobile website :) */
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.521);
+    color: white;
+    border-radius: 5px;  
+    padding: 10px;
+    border: rgba(252, 251, 251, 0.521) 1px solid;
+}
+
+/* Input Field Styling */
+.botreg input[type="text"],
+.botreg input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="file"],
+input[type="submit"],
+input[type="radio"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color:rgba(0, 0, 0, 0.993);
+    color: white;
+    border: 1px solid rgba(252, 251, 251, 0.521);
+    
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;   
+}
+
+/* Author: Kyle Hollett */
+/* Date: 2024-05-17 - 2024-05-25 */
+/* Description: Automobile website :) */
+
+.top-form input[type=text], select, textarea {
+    display: flex;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 2px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color:rgba(0, 0, 0, 0.322);
+    color: white;   
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:rgba(0, 0, 0, 0.692);
+    color: white;   
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.bottom-form input[type="text"], .bottom-form select, .bottom-form textarea {
+    display: flex;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color:rgba(172, 31, 31, 0.733);;
+    color: white;
+    font-weight: 700;
+  }
+.label2 {
+    margin-top: 5px;
+    align-items: center;
+    margin-right: 10px; /* Adjust spacing between label and input */
+    background-color:rgba(0, 0, 0, 0.322);
+    color: white;   
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+    /* Mobile styles */
+    body {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .navbarbottom, .navbartop {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .navbutton1 {
+        width: 80%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .desktopcontainer {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .video-container, .container2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Center videos vertically */
+    }
+    .image1, .image2 {
+        width: 90%;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+    .aboutnames {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .imageabout1, .imageabout2, .imageabout3 {
+        width: 80px;
+        height: 80px;
+    }
+    .color-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagecolor {
+        width: 90%;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+    .audio-container {
+        width: 90%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    footer {
+        position: relative;
+    }
+    .logocontainer {
+        flex-direction: row; /* Align logos horizontally */
+        justify-content: center; /* Center logos horizontally */
+        flex-wrap: wrap; 
+  
+
+    }
+    .logowrapper {
+        display: flex;
+        flex-direction: row; /* Align logos horizontally */
+        justify-content: center; /* Center logos horizontally */
+        align-items: center; /* Center logos vertically */
+        flex-wrap: wrap; /* Allow logos to wrap to next line on small screens */
+        margin: 0; /* Remove any margin that could affect centering */
+        padding: 0; /* Remove any padding that could affect centering */
+        margin-bottom:50px;
+    }
+    /* ... other styles ... */
+    .logos {
+        margin: 10px 0;
+    }
+    .fakestuff {
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .column {
+        flex-direction: column;
+    }
+    .navbutton1, .regbutton1, .loginbutton1, .loginbutton2 {
+        width: 80%;
+        height: 30px;
+        font-size: 14px;
+    }
+    .image1, .image2 {
+        height: auto;
+        max-width: 100%;
+    }
+    .imageabout1, .imageabout2, .imageabout3 {
+        width: 60px;
+        height: 60px;
+    }
+    .listimage {
+        height: auto;
+        max-width: 100%;
+    }
+    .radio-labelred, .radio-labelgreen, .radio-labelblue, .radio-labelyellow, .radio-labelpurple {
+        margin: 0 10px;
+        font-size: 12px;
+    }
+    .audio-container {
+        width: 100%;
+    }
+
+    .logos {
+        height: 20px;
+        width: 20px;
+    }
+    .fakestuff {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    .checkbox-group {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 420px; /* Adjust the width as needed */
+        margin-left: 45px;
+    }
+    .listcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 20px;
+    }
+        /* ... other styles ... */
+        input[type="text"],
+        input[type="password"] {
+            width: 90%; /* Adjust the width as needed */
+            max-width: 100%; /* Prevents the fields from extending beyond the viewport */
+            margin: 10px auto; /* Centers the fields and adds spacing */
+        }
+        /* ... other styles ... */
+    }
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Tablet styles */
+    /* Mobile styles */
+    body {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .navbarbottom, .navbartop {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .navbutton1 {
+        width: 80%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .desktopcontainer {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .video-container, .container2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Center videos vertically */
+    }
+    .image1, .image2 {
+        width: 90%;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+    .aboutnames {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .imageabout1, .imageabout2, .imageabout3 {
+        width: 80px;
+        height: 80px;
+    }
+    .color-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagecolor {
+        width: 90%;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+    .audio-container {
+        width: 90%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    footer {
+        position: relative;
+    }
+    .logocontainer {
+        flex-direction: row; /* Align logos horizontally */
+        justify-content: center; /* Center logos horizontally */
+        flex-wrap: wrap; 
+  
+
+    }
+    .logowrapper {
+        display: flex;
+        flex-direction: row; /* Align logos horizontally */
+        justify-content: center; /* Center logos horizontally */
+        align-items: center; /* Center logos vertically */
+        flex-wrap: wrap; /* Allow logos to wrap to next line on small screens */
+        margin: 0; /* Remove any margin that could affect centering */
+        padding: 0; /* Remove any padding that could affect centering */
+        margin-bottom:50px;
+        margin-left:250px;
+    }
+    /* ... other styles ... */
+    .logos {
+        margin: 10px 0;
+    }
+    .fakestuff {
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .column {
+        flex-direction: column;
+    }
+    .navbutton1, .regbutton1, .loginbutton1, .loginbutton2 {
+        width: 80%;
+        height: 30px;
+        font-size: 14px;
+    }
+    .image1, .image2 {
+        height: auto;
+        max-width: 100%;
+    }
+    .imageabout1, .imageabout2, .imageabout3 {
+        width: 60px;
+        height: 60px;
+    }
+    .listimage {
+        height: auto;
+        max-width: 100%;
+    }
+    .radio-labelred, .radio-labelgreen, .radio-labelblue, .radio-labelyellow, .radio-labelpurple {
+        margin: 0 10px;
+        font-size: 12px;
+    }
+    .audio-container {
+        width: 100%;
+    }
+
+    .logos {
+        height: 20px;
+        width: 20px;
+    }
+    .fakestuff {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    .checkbox-group {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: 420px; /* Adjust the width as needed */
+        margin-left: 173px;
+    }
+    .listcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 20px;
+    }
+        /* ... other styles ... */
+        input[type="text"],
+        input[type="password"] {
+            width: 90%; /* Adjust the width as needed */
+            max-width: 100%; /* Prevents the fields from extending beyond the viewport */
+            margin: 10px auto; /* Centers the fields and adds spacing */
+        }
+        /* ... other styles ... */
+    }
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Small desktop styles */
+        /* Mobile styles */
+        body {
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+        .navbarbottom, .navbartop {
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+        }
+        .navbutton1 {
+            width: 80%;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .desktopcontainer {
+            width: 100%;
+            padding: 20px 10px;
+        }
+        .video-container, .container2 {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; /* Center videos vertically */
+        }
+        .image1, .image2 {
+            width: 90%;
+            margin: 10px 0;
+            max-width: 100%;
+        }
+        .aboutnames {
+            width: 90%;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .imageabout1, .imageabout2, .imageabout3 {
+            width: 80px;
+            height: 80px;
+        }
+        .color-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagecolor {
+            width: 90%;
+            margin: 10px 0;
+            max-width: 100%;
+        }
+        .audio-container {
+            width: 90%;
+            margin: 20px 0;
+            text-align: center;
+        }
+        footer {
+            position: relative;
+        }
+        .logocontainer {
+            flex-direction: row; /* Align logos horizontally */
+            justify-content: center; /* Center logos horizontally */
+            flex-wrap: wrap; 
+      
+    
+        }
+        .logowrapper {
+            display: flex;
+            flex-direction: row; /* Align logos horizontally */
+            justify-content: center; /* Center logos horizontally */
+            align-items: center; /* Center logos vertically */
+            flex-wrap: wrap; /* Allow logos to wrap to next line on small screens */
+            margin: 0; /* Remove any margin that could affect centering */
+            padding: 0; /* Remove any padding that could affect centering */
+            margin-bottom:50px;
+        }
+        /* ... other styles ... */
+        .logos {
+            margin: 10px 0;
+        }
+        .fakestuff {
+            justify-content: center;
+            text-align: center;
+            margin: 0;
+            margin-bottom: 25px;
+        }
+        .column {
+            flex-direction: column;
+        }
+        .navbutton1, .regbutton1, .loginbutton1, .loginbutton2 {
+            width: 80%;
+            height: 30px;
+            font-size: 14px;
+        }
+        .image1, .image2 {
+            height: auto;
+            max-width: 100%;
+        }
+        .imageabout1, .imageabout2, .imageabout3 {
+            width: 60px;
+            height: 60px;
+        }
+        .listimage {
+            height: auto;
+            max-width: 100%;
+        }
+        .radio-labelred, .radio-labelgreen, .radio-labelblue, .radio-labelyellow, .radio-labelpurple {
+            margin: 0 10px;
+            font-size: 12px;
+        }
+        .audio-container {
+            width: 100%;
+        }
+    
+        .logos {
+            height: 20px;
+            width: 20px;
+        }
+        .fakestuff {
+            margin-right: 10px;
+            font-size: 12px;
+        }
+        .checkbox-group {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            width: 420px; /* Adjust the width as needed */
+            margin-left: 45px;
+        }
+        .listcontainer{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            padding: 20px;
+        }
+            /* ... other styles ... */
+            input[type="text"],
+            input[type="password"] {
+                width: 90%; /* Adjust the width as needed */
+                max-width: 100%; /* Prevents the fields from extending beyond the viewport */
+                margin: 10px auto; /* Centers the fields and adds spacing */
+            }
+            /* ... other styles ... */
+        }
+    
+    
